@@ -18,6 +18,24 @@ import blog3 from '../Assets/images/blog-3.jpg'
 
 function Home() {
     const [open, setOpen] = useState(false);
+    const [isZoomed, setIsZoomed] = useState(false);
+    let gotoTop = (secID) => {
+        const element = document.getElementById(secID);
+        const navbarElement = document.querySelector('.navbar>.container-fluid');
+
+        if (navbarElement) {
+            var navHeight = navbarElement.clientHeight;
+        }
+        console.log(element)
+        if (element) {
+            const topPosition = element.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({ top: topPosition - navHeight, behavior: 'smooth' });
+        }
+    }
+    const handleZoom = () => {
+        setIsZoomed(!isZoomed);
+    };
+    gotoTop();
 
     useEffect(() => {
         AOS.init({ duration: 1000 });
@@ -27,23 +45,31 @@ function Home() {
         <div className='overflow-hidden'>
 
             {/* nav sec */}
-            <div className="container-fluid bg-light position-relative shadow">
+            <div className="container-fluid bg-light shadow nav-name">
                 <nav className="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
                     <a href="/" className="navbar-brand font-weight-bold text-secondary" style={{ fontSize: '50px' }}>
                         <i className="flaticon-043-teddy-bear"></i>
                         <span className="text-primary">KidZone</span>
                     </a>
-                    <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div className="navbar-nav font-weight-bold mx-auto py-0">
-                            <a href="#" className="nav-item nav-link active">Home</a>
-                            <a href="#" className="nav-item nav-link">About</a>
-                            <a href="#" className="nav-item nav-link">Classes</a>
-                            <a href="#" className="nav-item nav-link">Teachers</a>
-                            <a href="#" className="nav-item nav-link">Gallery</a>
-                            <a href="#" className="nav-item nav-link">Contact</a>
+                            <a href="#home" className="nav-item nav-link">Home</a>
+                            <a href="#about" className="nav-item nav-link" onClick={() => gotoTop('about')}>About</a>
+                            <a href="#classes" className="nav-item nav-link" onClick={() => gotoTop('classes')}>Classes</a>
+                            <a href="#teacher" className="nav-item nav-link" onClick={() => gotoTop('teacher')}>Teachers</a>
+                            <a href="#blog" className="nav-item nav-link" onClick={() => gotoTop('blog')}>Blog</a>
+                            <a href="#contact" className="nav-item nav-link" onClick={() => gotoTop('contact')}>Contact</a>
                         </div>
                         <a href="#" className="btn btn-primary px-4">Join Class</a>
                     </div>
@@ -51,7 +77,7 @@ function Home() {
             </div>
 
             {/* header sec */}
-            <div className="container-fluid bg-primary px-0 px-md-5 mb-5">
+            <div className="container-fluid bg-primary px-0 px-md-5 my-5" id='home'>
                 <div className="row align-items-center px-3">
                     <div className="col-lg-6 text-center text-lg-left">
                         <h4 className="text-white mb-4 mt-5 mt-lg-0">Kids Learning Center</h4>
@@ -103,7 +129,7 @@ function Home() {
                                 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="" fill="currentColor" class="bi bi-radioactive" viewBox="0 0 16 16">
                                     <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8" />
                                     <path d="M9.653 5.496A3 3 0 0 0 8 5c-.61 0-1.179.183-1.653.496L4.694 2.992A5.97 5.97 0 0 1 8 2c1.222 0 2.358.365 3.306.992zm1.342 2.324a3 3 0 0 1-.884 2.312 3 3 0 0 1-.769.552l1.342 2.683c.57-.286 1.09-.66 1.538-1.103a6 6 0 0 0 1.767-4.624zm-5.679 5.548 1.342-2.684A3 3 0 0 1 5.005 7.82l-2.994-.18a6 6 0 0 0 3.306 5.728ZM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
-                                </svg> 
+                                </svg>
                                 <div className="pl-4">
                                     <h4>Arts and Crafts</h4>
                                     <p className="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
@@ -154,11 +180,11 @@ function Home() {
             </div>
 
             {/* about sec */}
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-5" id='about'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-5">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src={about1} alt="" /> 
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src={about1} alt="" />
                         </div>
                         <div className="col-lg-7">
                             <p className="section-title pr-5"><span className="pr-2">Learn About Us</span></p>
@@ -180,13 +206,13 @@ function Home() {
                             </div>
                             <a href="#" className="btn btn-primary mt-2 py-2 px-4">Learn More</a>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
 
             {/* popularclass sec */}
-            <div className="container-fluid pt-5">
+            <div className="container-fluid pt-5" id='classes'>
                 <div className="container">
                     <div className="text-center pb-2">
                         <p className="section-title px-5"><span className="px-2">Popular Classes</span></p>
@@ -282,7 +308,7 @@ function Home() {
             </div>
 
             {/* Registration sec */}
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-5 my-5" >
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-7 mb-5 mb-lg-0">
@@ -331,7 +357,7 @@ function Home() {
             </div>
 
             {/* team sec */}
-            <div className="container-fluid pt-5">
+            <div className="container-fluid pt-5" id='teacher'>
                 <div className="container">
                     <div className="text-center pb-2">
                         <p className="section-title px-5"><span className="px-2">Our Teachers</span></p>
@@ -391,7 +417,7 @@ function Home() {
             </div>
 
             {/* blog sec */}
-            <div className="container-fluid pt-5">
+            <div className="container-fluid pt-5" id='blog'>
                 <div className="container">
                     <div className="text-center pb-2">
                         <p className="section-title px-5"><span className="px-2">Latest Blog</span></p>
@@ -448,7 +474,7 @@ function Home() {
             </div>
 
             {/* footer sec */}
-            <div className="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+            <div className="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5" id='contact'>
                 <div className="row pt-5">
                     <div className="col-lg-3 col-md-6 mb-5">
                         <a href="" className="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style={{ fontSize: '40px', lineHeight: '40px' }}>

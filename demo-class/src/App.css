@@ -4008,6 +4008,10 @@
     }
   }
   
+  .nav-name{
+    position: fixed;
+    z-index: 9999;
+  }
   .nav {
     display: flex;
     flex-wrap: wrap;
