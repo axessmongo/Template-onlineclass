@@ -53,7 +53,7 @@ function Home() {
                         <span className="text-primary">Learnfast</span>
                     </a> */}
                     <a class="navbar-brand " href="index.html">
-                        <img src={logo} alt="logo" class="logo1"/></a>
+                        <img src={logo} alt="logo" class="logo1" /></a>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -85,9 +85,10 @@ function Home() {
                     <div className="col-lg-6 text-center text-lg-left">
                         <h4 className="text-white mb-4 mt-5 mt-lg-0">Kids Learning Center</h4>
                         <h1 className="display-3 font-weight-bold text-white">New Approach to Kids Education</h1>
-                        <p className="text-white mb-4">Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet sed sit.
-                            Ipsum dolor no justo dolor et, lorem ut dolor erat dolore sed ipsum at ipsum nonumy amet. Clita
-                            lorem dolore sed stet et est justo dolore.</p>
+                        <p className="text-white mb-4">Ditch the textbooks and embrace the thrill of discovery at LearnFast! Our innovative approach to education sparks
+                            a love of learning in curious young minds. We go beyond the basics, fostering confident learners through a
+                            dynamic curriculum that ignites creativity and celebrates individuality. Let your child blossom at LearnFast –
+                            where every day is an exciting adventure!</p>
                         <a href="" className="btn btn-secondary bg-dark mt-1 py-3 px-5">Learn More</a>
                     </div>
                     <div className="col-lg-6 text-center text-lg-right">
@@ -109,7 +110,7 @@ function Home() {
                                 </svg>
                                 <div className="pl-4">
                                     <h4>Play Ground</h4>
-                                    <p className="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                                    <p className="m-0">Fun-filled learning adventures begin at our playground!..</p>
                                 </div>
                             </div>
                         </div>
@@ -121,8 +122,8 @@ function Home() {
                                     <path d="M9.653 5.496A3 3 0 0 0 8 5c-.61 0-1.179.183-1.653.496L4.694 2.992A5.97 5.97 0 0 1 8 2c1.222 0 2.358.365 3.306.992zm1.342 2.324a3 3 0 0 1-.884 2.312 3 3 0 0 1-.769.552l1.342 2.683c.57-.286 1.09-.66 1.538-1.103a6 6 0 0 0 1.767-4.624zm-5.679 5.548 1.342-2.684A3 3 0 0 1 5.005 7.82l-2.994-.18a6 6 0 0 0 3.306 5.728ZM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
                                 </svg>
                                 <div className="pl-4">
-                                    <h4>Music and Dance</h4>
-                                    <p className="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                                    <h4>Arts & Crafts</h4>
+                                    <p className="m-0">Get creative and explore at LearnFast's Arts & Crafts!</p>
                                 </div>
                             </div>
                         </div>
@@ -134,8 +135,8 @@ function Home() {
                                     <path d="M9.653 5.496A3 3 0 0 0 8 5c-.61 0-1.179.183-1.653.496L4.694 2.992A5.97 5.97 0 0 1 8 2c1.222 0 2.358.365 3.306.992zm1.342 2.324a3 3 0 0 1-.884 2.312 3 3 0 0 1-.769.552l1.342 2.683c.57-.286 1.09-.66 1.538-1.103a6 6 0 0 0 1.767-4.624zm-5.679 5.548 1.342-2.684A3 3 0 0 1 5.005 7.82l-2.994-.18a6 6 0 0 0 3.306 5.728ZM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
                                 </svg>
                                 <div className="pl-4">
-                                    <h4>Arts and Crafts</h4>
-                                    <p className="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                                    <h4>Safe Transportation</h4>
+                                    <p className="m-0">Worry-free drop-off and pick-up: Safe and reliable transportation available.</p>
                                 </div>
                             </div>
                         </div>
@@ -147,8 +148,8 @@ function Home() {
                                     <path d="M9.653 5.496A3 3 0 0 0 8 5c-.61 0-1.179.183-1.653.496L4.694 2.992A5.97 5.97 0 0 1 8 2c1.222 0 2.358.365 3.306.992zm1.342 2.324a3 3 0 0 1-.884 2.312 3 3 0 0 1-.769.552l1.342 2.683c.57-.286 1.09-.66 1.538-1.103a6 6 0 0 0 1.767-4.624zm-5.679 5.548 1.342-2.684A3 3 0 0 1 5.005 7.82l-2.994-.18a6 6 0 0 0 3.306 5.728ZM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
                                 </svg>
                                 <div className="pl-4">
-                                    <h4>Safe Transportation</h4>
-                                    <p className="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                                    <h4>Healthy food</h4>
+                                    <p className="m-0">Fueling young minds and bodies: Nutritious meals and healthy snacks served daily.</p>
                                 </div>
                             </div>
                         </div>
@@ -160,8 +161,9 @@ function Home() {
                                     <path d="M9.653 5.496A3 3 0 0 0 8 5c-.61 0-1.179.183-1.653.496L4.694 2.992A5.97 5.97 0 0 1 8 2c1.222 0 2.358.365 3.306.992zm1.342 2.324a3 3 0 0 1-.884 2.312 3 3 0 0 1-.769.552l1.342 2.683c.57-.286 1.09-.66 1.538-1.103a6 6 0 0 0 1.767-4.624zm-5.679 5.548 1.342-2.684A3 3 0 0 1 5.005 7.82l-2.994-.18a6 6 0 0 0 3.306 5.728ZM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
                                 </svg>
                                 <div className="pl-4">
-                                    <h4>Healthy food</h4>
-                                    <p className="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
+                                    <h4>Educational Tour</h4>
+                                    <p className="m-0">Expanding young minds beyond the classroom: Engaging educational tours spark real-world
+                                        curiosity!</p>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +175,7 @@ function Home() {
                                     <path d="M9.653 5.496A3 3 0 0 0 8 5c-.61 0-1.179.183-1.653.496L4.694 2.992A5.97 5.97 0 0 1 8 2c1.222 0 2.358.365 3.306.992zm1.342 2.324a3 3 0 0 1-.884 2.312 3 3 0 0 1-.769.552l1.342 2.683c.57-.286 1.09-.66 1.538-1.103a6 6 0 0 0 1.767-4.624zm-5.679 5.548 1.342-2.684A3 3 0 0 1 5.005 7.82l-2.994-.18a6 6 0 0 0 3.306 5.728ZM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
                                 </svg>
                                 <div className="pl-4">
-                                    <h4>Educational Tour</h4>
+                                    <h4>Music & Dance</h4>
                                     <p className="m-0">Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero lorem amet elitr vero...</p>
                                 </div>
                             </div>
@@ -192,18 +194,17 @@ function Home() {
                         <div className="col-lg-7">
                             <p className="section-title pr-5"><span className="pr-2">Learn About Us</span></p>
                             <h1 className="mb-4">Best School For Your Kids</h1>
-                            <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                                ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                                dolor</p>
+                            <p>Wondering where your child's curiosity can truly flourish? Look no further than LearnFast! We cultivate a nurturing
+                                environment where passionate educators guide young minds on a journey of discovery.</p>
                             <div className="row pt-2 pb-4">
                                 <div className="col-6 col-md-4">
                                     <img className="img-fluid rounded" src={about2} alt="" />
                                 </div>
                                 <div className="col-6 col-md-8">
                                     <ul className="list-inline m-0">
-                                        <li className="py-2 border-top border-bottom"><i className="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
-                                        <li className="py-2 border-bottom"><i className="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                                        <li className="py-2 border-bottom"><i className="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                                        <li className="py-2 border-top border-bottom"><i className="fa fa-check text-primary mr-3"></i>Personalized attention</li>
+                                        <li className="py-2 border-bottom"><i className="fa fa-check text-primary mr-3"></i>Engaging activities</li>
+                                        <li className="py-2 border-bottom"><i className="fa fa-check text-primary mr-3"></i>Unlocking potential</li>
                                     </ul>
                                 </div>
                             </div>
@@ -227,7 +228,7 @@ function Home() {
                                 <img className="card-img-top mb-2" src={class1} alt="" />
                                 <div className="card-body text-center">
                                     <h4 className="card-title">Drawing Class</h4>
-                                    <p className="card-text">Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
+                                    <p className="card-text">Unleash your child's inner artist with LearnFast's exciting Drawing Class!</p>
                                 </div>
                                 <div className="card-footer bg-transparent py-4 px-5">
                                     <div className="row border-bottom">
@@ -255,7 +256,7 @@ function Home() {
                                 <img className="card-img-top mb-2" src={class2} alt="" />
                                 <div className="card-body text-center">
                                     <h4 className="card-title">Language Learning</h4>
-                                    <p className="card-text">Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
+                                    <p className="card-text">Explore the world, one language at a time! LearnFast offers engaging Language Learning programs.</p>
                                 </div>
                                 <div className="card-footer bg-transparent py-4 px-5">
                                     <div className="row border-bottom">
@@ -283,7 +284,7 @@ function Home() {
                                 <img className="card-img-top mb-2" src={class3} alt="" />
                                 <div className="card-body text-center">
                                     <h4 className="card-title">Basic Science</h4>
-                                    <p className="card-text">Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
+                                    <p className="card-text">Uncover the magic of science! LearnFast's Basic Science program ignites a love for discovery.</p>
                                 </div>
                                 <div className="card-footer bg-transparent py-4 px-5">
                                     <div className="row border-bottom">
@@ -317,13 +318,13 @@ function Home() {
                         <div className="col-lg-7 mb-5 mb-lg-0">
                             <p className="section-title pr-5"><span className="pr-2">Book A Seat</span></p>
                             <h1 className="mb-4">Book A Seat For Your Kid</h1>
-                            <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                                ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                                dolor</p>
+                            <p>Uncover the magic of science! LearnFast's Basic Science program ignites a love for discovery.
+                                Secure your child's spot at LearnFast's exciting adventure!
+                            </p>
                             <ul className="list-inline m-0">
-                                <li className="py-2"><i className="fa fa-check text-success mr-3"></i>Labore eos amet dolor amet diam</li>
-                                <li className="py-2"><i className="fa fa-check text-success mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                                <li className="py-2"><i className="fa fa-check text-success mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                                <li className="py-2"><i className="fa fa-check text-success mr-3"></i>Small class sizes for personalized attention</li>
+                                <li className="py-2"><i className="fa fa-check text-success mr-3"></i>Interactive learning ignites a love of discovery</li>
+                                <li className="py-2"><i className="fa fa-check text-success mr-3"></i>Nurturing environment fosters confidence and growth</li>
                             </ul>
                             <a href="#" className="btn btn-primary mt-4 py-2 px-4">Book Now</a>
                         </div>
@@ -484,7 +485,11 @@ function Home() {
                             <i className="flaticon-043-teddy-bear"></i>
                             <span className="text-white">Learn Fast</span>
                         </a>
-                        <p>Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
+
+                        <p>
+
+                            Secure your child's spot at LearnFast's exciting adventure!
+                        </p>
                         <div className="d-flex justify-content-start mt-4">
                             <a className="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                                 style={{ width: '38px', height: '38px' }} href="#"><i className="fab fa-twitter"></i></a>
