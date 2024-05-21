@@ -14,6 +14,7 @@ import team4 from '../Assets/images/team-4.jpg'
 import blog1 from '../Assets/images/blog-1.jpg'
 import blog2 from '../Assets/images/blog-2.jpg'
 import blog3 from '../Assets/images/blog-3.jpg'
+import logo from '../Assets/images/schoolLogo.png'
 
 
 function Home() {
@@ -47,10 +48,12 @@ function Home() {
             {/* nav sec */}
             <div className="container-fluid bg-light shadow nav-name">
                 <nav className="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
-                    <a href="/" className="navbar-brand font-weight-bold text-secondary" style={{ fontSize: '50px' }}>
+                    {/* <a href="/" className="navbar-brand font-weight-bold text-secondary" style={{ fontSize: '50px' }}>
                         <i className="flaticon-043-teddy-bear"></i>
-                        <span className="text-primary">KidZone</span>
-                    </a>
+                        <span className="text-primary">Learnfast</span>
+                    </a> */}
+                    <a class="navbar-brand " href="index.html">
+                        <img src={logo} alt="logo" class="logo1"/></a>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -68,7 +71,7 @@ function Home() {
                             <a href="#about" className="nav-item nav-link" onClick={() => gotoTop('about')}>About</a>
                             <a href="#classes" className="nav-item nav-link" onClick={() => gotoTop('classes')}>Classes</a>
                             <a href="#teacher" className="nav-item nav-link" onClick={() => gotoTop('teacher')}>Teachers</a>
-                            <a href="#blog" className="nav-item nav-link" onClick={() => gotoTop('blog')}>Blog</a>
+                            {/* <a href="#blog" className="nav-item nav-link" onClick={() => gotoTop('blog')}>Blog</a> */}
                             <a href="#contact" className="nav-item nav-link" onClick={() => gotoTop('contact')}>Contact</a>
                         </div>
                         <a href="#" className="btn btn-primary px-4">Join Class</a>
@@ -77,7 +80,7 @@ function Home() {
             </div>
 
             {/* header sec */}
-            <div className="container-fluid bg-primary px-0 px-md-5 my-5" id='home'>
+            <div className="container-fluid bg-primary px-0 px-md-5 my-5 pt-5 pt-lg-0" id='home'>
                 <div className="row align-items-center px-3">
                     <div className="col-lg-6 text-center text-lg-left">
                         <h4 className="text-white mb-4 mt-5 mt-lg-0">Kids Learning Center</h4>
@@ -241,7 +244,7 @@ function Home() {
                                     </div>
                                     <div className="row">
                                         <div className="col-6 py-1 text-right border-right"><strong>Tution Fee</strong></div>
-                                        <div className="col-6 py-1">$290 / Month</div>
+                                        <div className="col-6 py-1">₹1500 / Month</div>
                                     </div>
                                 </div>
                                 <a href="#" className="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
@@ -269,7 +272,7 @@ function Home() {
                                     </div>
                                     <div className="row">
                                         <div className="col-6 py-1 text-right border-right"><strong>Tution Fee</strong></div>
-                                        <div className="col-6 py-1">$290 / Month</div>
+                                        <div className="col-6 py-1">₹1700 / Month</div>
                                     </div>
                                 </div>
                                 <a href="#" className="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
@@ -297,7 +300,7 @@ function Home() {
                                     </div>
                                     <div className="row">
                                         <div className="col-6 py-1 text-right border-right"><strong>Tution Fee</strong></div>
-                                        <div className="col-6 py-1">$290 / Month</div>
+                                        <div className="col-6 py-1">₹1300 / Month</div>
                                     </div>
                                 </div>
                                 <a href="#" className="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
@@ -417,7 +420,7 @@ function Home() {
             </div>
 
             {/* blog sec */}
-            <div className="container-fluid pt-5" id='blog'>
+            {/* <div className="container-fluid pt-5" id='blog'>
                 <div className="container">
                     <div className="text-center pb-2">
                         <p className="section-title px-5"><span className="px-2">Latest Blog</span></p>
@@ -471,7 +474,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* footer sec */}
             <div className="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5" id='contact'>
@@ -479,7 +482,7 @@ function Home() {
                     <div className="col-lg-3 col-md-6 mb-5">
                         <a href="" className="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style={{ fontSize: '40px', lineHeight: '40px' }}>
                             <i className="flaticon-043-teddy-bear"></i>
-                            <span className="text-white">KidZone</span>
+                            <span className="text-white">Learn Fast</span>
                         </a>
                         <p>Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
                         <div className="d-flex justify-content-start mt-4">
@@ -499,14 +502,14 @@ function Home() {
                             <h4 className="fa fa-map-marker-alt text-primary"></h4>
                             <div className="pl-3">
                                 <h5 className="text-white">Address</h5>
-                                <p>123 Street, New York, USA</p>
+                                <p>Chennai</p>
                             </div>
                         </div>
                         <div className="d-flex">
                             <h4 className="fa fa-envelope text-primary"></h4>
                             <div className="pl-3">
                                 <h5 className="text-white">Email</h5>
-                                <p>info@example.com</p>
+                                <p>Learnfast@gmail.com</p>
                             </div>
                         </div>
                         <div className="d-flex">
@@ -521,14 +524,14 @@ function Home() {
                         <h3 className="text-primary mb-4">Quick Links</h3>
                         <div className="d-flex flex-column justify-content-start">
                             <a className="text-white mb-2 quick-cls" href="#"><i className="fa fa-angle-right mr-2"></i>Home</a>
-                            <a className="text-white mb-2 quick-cls" href="#"><i className="fa fa-angle-right mr-2"></i>About Us</a>
-                            <a className="text-white mb-2 quick-cls" href="#"><i className="fa fa-angle-right mr-2"></i>Our Classes</a>
-                            <a className="text-white mb-2 quick-cls" href="#"><i className="fa fa-angle-right mr-2"></i>Our Teachers</a>
-                            <a className="text-white mb-2 quick-cls" href="#"><i className="fa fa-angle-right mr-2"></i>Our Blog</a>
-                            <a className="text-white quick-cls" href="#"><i className="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a className="text-white mb-2 quick-cls" href="/#about"><i className="fa fa-angle-right mr-2"></i>About Us</a>
+                            <a className="text-white mb-2 quick-cls" href="/#classes"><i className="fa fa-angle-right mr-2"></i>Our Classes</a>
+                            <a className="text-white mb-2 quick-cls" href="/#teacher"><i className="fa fa-angle-right mr-2"></i>Our Teachers</a>
+                            {/* <a className="text-white mb-2 quick-cls" href="#"><i className="fa fa-angle-right mr-2"></i>Our Blog</a> */}
+                            <a className="text-white quick-cls" href="/#contact"><i className="fa fa-angle-right mr-2"></i>Contact Us</a>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 mb-5">
+                    {/* <div className="col-lg-3 col-md-6 mb-5">
                         <h3 className="text-primary mb-4">Newsletter</h3>
                         <form action="">
                             <div className="form-group">
@@ -542,14 +545,15 @@ function Home() {
                                 <button className="btn btn-primary btn-block border-0 py-3" type="submit">Submit Now</button>
                             </div>
                         </form>
-                    </div>
+                    </div> */}
                 </div>
-                <div className="container-fluid pt-5" style={{ borderTop: '1px solid rgba(23, 162, 184, .2)' }}>
+                {/* <div className="container-fluid pt-5" style={{ borderTop: '1px solid rgba(23, 162, 184, .2)' }}>
                     <p className="m-0 text-center text-white">
-                        &copy; <a className="text-primary font-weight-bold" href="#">KidZone</a>. All Rights Reserved.
+                        &copy; <span className="text-white font-weight-bold">LearnFast</span>. All Rights Reserved.
                         <a className="text-primary font-weight-bold" href="https://htmlcodex.com"></a>
                     </p>
-                </div>
+                </div> */}
+                <div class="text-center pt-5"><p class="mb-0 text-white fs--1 fw-medium">All rights reserved@learnfast.co</p></div>
             </div>
 
         </div>
