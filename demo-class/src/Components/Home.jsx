@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import headerImage from '../Assets/images/header.png';
-import about1 from '../Assets/images/about-1.jpg'
-import about2 from '../Assets/images/about-2.jpg'
-import class1 from '../Assets/images/class-1.jpg'
-import class2 from '../Assets/images/class-2.jpg'
-import class3 from '../Assets/images/class-3.jpg'
+import about1 from '../Assets/images/T5.png'
+import about2 from '../Assets/images/T4.png'
+import class1 from '../Assets/images/T2.png'
+import class2 from '../Assets/images/T3.png'
+import class3 from '../Assets/images/T1.png'
 import team1 from '../Assets/images/AI1.png'
 import team2 from '../Assets/images/AI3.png'
 import team3 from '../Assets/images/AI4.png'
