@@ -377,7 +377,7 @@ function Home() {
                                     <a className="btn btn-outline-light text-center px-0" style={{ width: '38px', height: '38px' }} href="#"><i className="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
-                            <h4>Julia Smith</h4>
+                            <h4>Priya</h4>
                             <i>Music Teacher</i>
                         </div>
                         <div className="col-md-6 col-lg-3 text-center team mb-5">
@@ -389,7 +389,7 @@ function Home() {
                                     <a className="btn btn-outline-light text-center px-0" style={{ width: '38px', height: '38px' }} href="#"><i className="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
-                            <h4>Jhon Doe</h4>
+                            <h4>Aravind</h4>
                             <i>Language Teacher</i>
                         </div>
                         <div className="col-md-6 col-lg-3 text-center team mb-5">
@@ -401,7 +401,7 @@ function Home() {
                                     <a className="btn btn-outline-light text-center px-0" style={{ width: '38px', height: '38px' }} href="#"><i className="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
-                            <h4>Mollie Ross</h4>
+                            <h4>Pooja Kannan</h4>
                             <i>Dance Teacher</i>
                         </div>
                         <div className="col-md-6 col-lg-3 text-center team mb-5">
@@ -413,7 +413,7 @@ function Home() {
                                     <a className="btn btn-outline-light text-center px-0" style={{ width: '38px', height: '38px' }} href="#"><i className="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
-                            <h4>Donald John</h4>
+                            <h4>Mohit Kumar</h4>
                             <i>Art Teacher</i>
                         </div>
                     </div>
