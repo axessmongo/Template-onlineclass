@@ -483,7 +483,8 @@ function Home() {
                     <div className="col-lg-3 col-md-6 mb-5">
                         <a href="" className="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style={{ fontSize: '40px', lineHeight: '40px' }}>
                             <i className="flaticon-043-teddy-bear"></i>
-                            <span className="text-white">Learn Fast</span>
+                            <a class="navbar-brand " href="index.html">
+                        <img src={logo} alt="logo" class="logo1" /></a>
                         </a>
 
                         <p>
