@@ -519,11 +519,11 @@ function Home() {
                             </div>
                         </div>
                         <div className="d-flex">
-                            <h4 className="fa fa-phone-alt text-primary"></h4>
+                            {/* <h4 className="fa fa-phone-alt text-primary"></h4>
                             <div className="pl-3">
                                 <h5 className="text-white">Phone</h5>
                                 <p>+012 345 67890</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
